@@ -1,0 +1,54 @@
+*** Creating Trace Output File '.\Obj\Http_demo.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\http_cgi.o"'
+### List of Objects: adding '".\obj\web.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\device_init.o"'
+### List of Objects: adding '".\obj\global.o"'
+### List of Objects: adding '".\obj\stm32f10x_it.o"'
+### List of Objects: adding '".\obj\adc_lxb.o"'
+### List of Objects: adding '".\obj\log.o"'
+### List of Objects: adding '".\obj\i2c.o"'
+### List of Objects: adding '".\obj\spi.o"'
+### List of Objects: adding '".\obj\data_init.o"'
+### List of Objects: adding '".\obj\key.o"'
+### List of Objects: adding '".\obj\data_m.o"'
+### List of Objects: adding '".\obj\usart.o"'
+### List of Objects: adding '".\obj\machine.o"'
+### List of Objects: adding '".\obj\net_config.o"'
+### List of Objects: adding '".\obj\rtx_config.o"'
+### List of Objects: adding '".\obj\startup_stm32f10x_cl.o"'
+### List of Objects: adding '".\obj\eth_stm32x.o"'
+### List of Objects: adding '".\obj\system_stm32f10x_cl.o"'
+### List of Objects: adding '".\TCP_CM3.lib"'
+### List of Objects: adding '".\obj\misc.o"'
+### List of Objects: adding '".\obj\stm32f10x_adc.o"'
+### List of Objects: adding '".\obj\stm32f10x_bkp.o"'
+### List of Objects: adding '".\obj\stm32f10x_dma.o"'
+### List of Objects: adding '".\obj\stm32f10x_exti.o"'
+### List of Objects: adding '".\obj\stm32f10x_gpio.o"'
+### List of Objects: adding '".\obj\stm32f10x_i2c.o"'
+### List of Objects: adding '".\obj\stm32f10x_iwdg.o"'
+### List of Objects: adding '".\obj\stm32f10x_rcc.o"'
+### List of Objects: adding '".\obj\stm32f10x_spi.o"'
+### List of Objects: adding '".\obj\stm32f10x_tim.o"'
+### List of Objects: adding '".\obj\stm32f10x_usart.o"'
+### List of Objects: adding '".\obj\stm32f10x_pwr.o"'
+### List of Objects: adding '".\obj\stm32_eth.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\http_cgi.o" ".\obj\web.o" ".\obj\main.o" ".\obj\device_init.o" ".\obj\global.o" ".\obj\stm32f10x_it.o" ".\obj\adc_lxb.o" ".\obj\log.o" ".\obj\i2c.o" ".\obj\spi.o" ".\obj\data_init.o" ".\obj\key.o" ".\obj\data_m.o" ".\obj\usart.o" ".\obj\machine.o" ".\obj\net_config.o" ".\obj\rtx_config.o" ".\obj\startup_stm32f10x_cl.o" ".\obj\eth_stm32x.o" ".\obj\system_stm32f10x_cl.o" F:\there\Ñ²¼ì»ú\Ñ²¼ì»ú1.27\Prj-Src\TCP_CM3.lib ".\obj\misc.o" ".\obj\stm32f10x_adc.o" ".\obj\stm32f10x_bkp.o" ".\obj\stm32f10x_dma.o" ".\obj\stm32f10x_exti.o" ".\obj\stm32f10x_gpio.o" ".\obj\stm32f10x_i2c.o" ".\obj\stm32f10x_iwdg.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_spi.o" ".\obj\stm32f10x_tim.o" ".\obj\stm32f10x_usart.o" ".\obj\stm32f10x_pwr.o" ".\obj\stm32_eth.o" 
+C:\Keil\ARM\RV31\LIB\RTX_CM3.LIB --library_type=microlib --strict --scatter ".\Obj\Http_demo.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\Http_demo.map" -o .\Obj\Http_demo.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\Http_demo.axf'
+### ADS-LD Command File: '.\Obj\Http_demo.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\Http_demo.lnp', Handle=0x00000174
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\Http_demo.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

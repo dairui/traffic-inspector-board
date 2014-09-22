@@ -1,0 +1,23 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\STM_temp\Ñ²¼ì»ú-2014\Ñ²¼ì»ú2014-03-22\Prj-Src\Project.uvproj
+Project File Date:  03/22/2014
+
+<h2>Output:</h2>
+Build target 'MCBSTM32C RTX'
+custom translating Web.inp...
+Custom: .\bin\fcarm @Web\Web.inp
+FCARM FILE CONVERTER V1.32 - SN: Eval Version
+COPYRIGHT Copyright (C) 2004-2009 Keil Software
+@Web\Web.inp index.htm, network.cgi,   system.cgi, main_page.cgi, 
+ pg_header.inc, pg_footer.inc,aplication_set.cgi
+ to Web.c nopr root(Web)
+FCARM COMPLETE. 7 FILES WITH 14819 BYTES CONVERTED
+linking...
+Program Size: Code=93860 RO-data=19720 RW-data=1052 ZI-data=53964  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil\ARM\ARMCC\bin\fromelf.exe --bin -o ./aa.bin ./obj/Http_demo.axf
+".\Obj\Http_demo.axf" - 0 Errors, 0 Warning(s).

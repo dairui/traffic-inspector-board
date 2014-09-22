@@ -1,0 +1,73 @@
+Dependencies for Project 'Project', Target 'MCBSTM32C': (DO NOT MODIFY !)
+F (.\Web\Web.inp)(0x50875A40)()
+F (.\Web\index.htm)(0x51008B6A)()
+F (.\Web\network.cgi)(0x50875A42)()
+F (.\Web\lcd.cgi)(0x50875A40)()
+F (.\Web\leds.cgi)(0x50875A42)()
+F (.\Web\system.cgi)(0x50875A42)()
+F (.\Web\tcp.cgi)(0x50875A42)()
+F (.\Web\language.cgi)(0x50875A42)()
+F (.\Web\buttons.cgi)(0x50875A42)()
+F (.\Web\pg_footer.inc)(0x51008B6A)()
+F (.\Web\pg_header.inc)(0x50875A42)()
+F (.\Web\buttons.cgx)(0x50875A42)()
+F (.\Web\ad.cgi)(0x50875A42)()
+F (.\Web\ad.cgx)(0x50875A40)()
+F (.\Web\xml_http.js)(0x50875A42)()
+F (.\HTTP_CGI.c)(0x50875A42)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I..\Library -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o ".\Obj\http_cgi.o" --omf_browse ".\Obj\http_cgi.crf" --depend ".\Obj\http_cgi.d")
+I (C:\Keil\ARM\RV31\INC\Net_Config.h)(0x51008BDC)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x51008BDC)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+F (.\Web\WEB.C)(0x513ABA47)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I..\Library -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o ".\Obj\web.o" --omf_browse ".\Obj\web.crf" --depend ".\Obj\web.d")
+I (C:\Keil\ARM\RV31\INC\Net_Config.h)(0x51008BDC)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x51008BDC)
+F (.\main.c)(0x50875A42)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I..\Library -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o ".\Obj\main.o" --omf_browse ".\Obj\main.crf" --depend ".\Obj\main.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x51008BDC)
+I (C:\Keil\ARM\RV31\INC\Net_Config.h)(0x51008BDC)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_cl.h)(0x508759B8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x_cl.h)(0x508759B8)
+I (..\Library\GLCD.h)(0x50875A42)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+F (.\Net_Config.c)(0x51008B6A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I..\Library -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o ".\Obj\net_config.o" --omf_browse ".\Obj\net_config.crf" --depend ".\Obj\net_config.d")
+I (C:\Keil\ARM\RV31\INC\Net_Config.h)(0x51008BDC)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x51008BDC)
+I (C:\Keil\ARM\RV31\INC\Net_lib.c)(0x51008BDC)
+F (.\Net_Debug.c)(0x50875A40)()
+F (.\RTX_Config.c)(0x50875A42)()
+F (.\startup_stm32f10x_cl.s)(0x50875A42)(--cpu Cortex-M3 -g --16 --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x --list ".\Lst\startup_stm32f10x_cl.lst" --xref -o ".\Obj\startup_stm32f10x_cl.o" --depend ".\Obj\startup_stm32f10x_cl.d")
+F (C:\Keil\ARM\RV31\LIB\TCP_CM3.lib)(0x51008B94)()
+F (C:\Keil\ARM\RV31\LIB\TCPD_CM3.lib)(0x51008B94)()
+F (..\Library\ETH_STM32x.c)(0x50875A42)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I..\Library -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o ".\Obj\eth_stm32x.o" --omf_browse ".\Obj\eth_stm32x.crf" --depend ".\Obj\eth_stm32x.d")
+I (C:\Keil\ARM\RV31\INC\Net_Config.h)(0x51008BDC)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x51008BDC)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_cl.h)(0x508759B8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x_cl.h)(0x508759B8)
+I (..\Library\ETH_STM32x.h)(0x50875A42)
+F (..\Library\system_stm32f10x_cl.c)(0x50875A42)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I..\Library -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o ".\Obj\system_stm32f10x_cl.o" --omf_browse ".\Obj\system_stm32f10x_cl.crf" --depend ".\Obj\system_stm32f10x_cl.d")
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_cl.h)(0x508759B8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x_cl.h)(0x508759B8)
+F (..\Library\GLCD_SPI_STM32.c)(0x50875A42)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I..\Library -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o ".\Obj\glcd_spi_stm32.o" --omf_browse ".\Obj\glcd_spi_stm32.crf" --depend ".\Obj\glcd_spi_stm32.d")
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_cl.h)(0x508759B8)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x_cl.h)(0x508759B8)
+I (..\Library\GLCD.h)(0x50875A42)
+I (..\Library\Font_6x8_h.h)(0x50875A42)
+I (..\Library\Font_16x24_h.h)(0x50875A42)
+F (.\Abstract.txt)(0x50875A42)()

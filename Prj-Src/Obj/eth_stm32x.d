@@ -1,0 +1,10 @@
+.\obj\eth_stm32x.o: ..\Library\MDK-Lib\ETH_STM32x.c
+.\obj\eth_stm32x.o: C:\Keil\ARM\RV31\INC\Net_Config.h
+.\obj\eth_stm32x.o: C:\Keil\ARM\RV31\INC\RTL.h
+.\obj\eth_stm32x.o: C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x_cl.h
+.\obj\eth_stm32x.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\eth_stm32x.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\eth_stm32x.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\eth_stm32x.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\eth_stm32x.o: C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x_cl.h
+.\obj\eth_stm32x.o: ..\Library\MDK-Lib\ETH_STM32x.h

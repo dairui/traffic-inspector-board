@@ -1,0 +1,84 @@
+//    co-rv.lnt
+//    Compiler Options for the ARM RealView Compiler Version 3.10
+//
+//    This file contains options to allow PC-lint to process source
+//    files for your compiler.  It is used as follows:
+//
+//    lint  co-rv.lnt  source-file(s)
+//
+//    You may contact Keil Software, Inc. at:
+//
+//    16990 Dallas Parkway, Suite 120
+//    Dallas, Texas  75248-1903
+//    Phone:  972-735-8052  Fax:  972-735-8052
+//    Sales:  800-348-8051
+
+-hsb_3           // formatting options required for MicroVision IDE
+-format="*** LINT: %(%f(%l) %)%t %n: %m"
+-width(0,10)     // Don't break lines
+
+            // while processing compiler (library) header files ...
+-wlib(1)    // sets the warning level within library headers to 1
+	    // (no warnings, just syntax errors).  Comment out if you
+	    // are actually linting library headers.  This
+	    // option makes obsolete options of the form -elib(axxx) where
+	    // xxx >= 400 which may be retained for historical reasons.
++v
+
+-elib(652)  // suppress message about #define of earlier declared symbols
+-elib(762)  // suppress message about multiple identical declarations and
+-elib(760)  // suppress message about multiple identical macro defs
+
+
+-d__ram=
+-d__arm=
+-d__irq=
+-d__value_in_regs=
+-d__task=
+-d__softfp=
+-d__pure=
+-d__packed=
+
++rw(_gobble)              // activate the _gobble keyword
+                          // causes _gobble token to be both ignored
+-d__isr=_gobble           // defines __isr    to be a _gobble
+-d__task=_gobble          // defines __task   to be a _gobble
+-d__at=_gobble            // defines __at     to be a _gobble
++rw(_ignore_init)         // activate this keyword
+-d__asm=_ignore_init
++rw(__declspec)           // activate this MS keyword
+
+
+-sp4                      // size of pointer is 4 bytes
++d__sizeof_int=4          // set __sizeof_int to 4 bytes
++d__sizeof_long=4         // set __sizeof_long to 4 bytes
++d__sizeof_ptr=4          // set __sizeof_ptr to 4 bytes
+
++d__arm__=1               // this is an ARM compiler
++d__CC_ARM=1              // this is an ARM compiler
++d__thumb__=1             // this is set when compiling in thumb mode
++d__thumb=1               // this is set when compiling in thumb mode
++d__ARMCC_VERSION=310903  // set RealView compiler version to 3.10 build 903
++d__DATE__="Mar 2 2005"   // set RealView compiler date macro
++d__TIME__="11:55:00"     // set RealView compiler time macro
++d__FILE__="MYFILE.C"     // set RealView compiler file macro
++d__MODULE__="MYFILE.C"   // set RealView compiler module macro
++d__LINE__=100            // set RealView compiler line macro
++d__STDC__=1              // set RealView compiler STDC macro
+
+
+//  The following functions exhibit variable return modes.
+//  That is, they may equally-usefully be called for a value
+//  as called just for their effects.  Accordingly we inhibit
+//  Warning 534 for these functions.
+//  Feel free to add to or subtract from this list.
+
+-esym(534,memcpy,memmove,memset,strncat,strncpy)
+-esym(534,printf,putchar,puts,scanf,sprintf,sscanf,strcat,strcpy)
+
+// inhibit error 123: Macro defined with arguments
+-esym(123,getchar,putchar)
+
+-emacro(413,offsetof)  // use of NULL pointer creates a stir
+-emacro(545,offsetof)  // addressing an array member is OK
+

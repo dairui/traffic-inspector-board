@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I..\Library -I..\Library\MDK-Lib -I..\Library\STM32F10x_StdPeriph_Driver\inc -I..\Prj-Src -I.\inc 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F10x 
+-DRTX_KERNEL -DSTM32F10X_CL -DUSE_STDPERIPH_DRIVER -DSTM3210C -o ".\Obj\stm32f10x_flash.o" --omf_browse ".\Obj\stm32f10x_flash.crf" --depend ".\Obj\stm32f10x_flash.d" "..\Library\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c"

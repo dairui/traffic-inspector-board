@@ -1,0 +1,110 @@
+[DebugChecksum]
+Checksum=56327324
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[Profiling]
+Enabled=0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[SWOTraceHWSettings]
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=500000
+JtagSpeed=500000
+Prescaler=144
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[TraceHelperExtra]
+Enabled=0
+ShowSource=1
+[CallStackLog]
+Enabled=0
+[Aliases]
+A0=_ "C:\Documents and Settings\706\桌面\STM32F107_LwIP_BOOT\Project\STM32F107_LwIP_IAP\src\main.c" ""
+A1=_ "C:\Documents and Settings\Administrator\桌面\STM32F107_LwIP_BOOT\Project\STM32F107_LwIP_IAP\src\main.c" "C:\Documents and Settings\706\桌面\STM32F107_LwIP_BOOT\Project\STM32F107_LwIP_IAP\src\main.c"
+A2=_ "C:\Documents and Settings\Administrator\桌面\STM32F107_LwIP_BOOT\Utilities\Third_Party\lwip_v1.3.1\src\core\netif.c" ""
+A3=_ "C:\Documents and Settings\Administrator\桌面\东宝修改的\IAP\Project\STM32F107_LwIP_IAP\src\main.c" "C:\Documents and Settings\Administrator\桌面\检测机下位机程序\IAP\Project\STM32F107_LwIP_IAP\src\main.c"
+A4=_ "C:\Documents and Settings\Administrator\桌面\新建文件夹\IAP\Project\STM32F107_LwIP_IAP\src\main.c" ""
+A5=_ "C:\Documents and Settings\aspl\桌面\无系统工程\STM32F107_LwIP_BOOT\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c" ""
+A6=_ "C:\Documents and Settings\aspl\桌面\无系统工程\STM32F107_LwIP_BOOT\Project\STM32F107_LwIP_IAP\src\main.c" ""
+A7=_ "C:\Documents and Settings\aspl\桌面\无系统工程\STM32F107_LwIP_BOOT\Utilities\STM32_EVAL\stm3210c_eval\stm3210c_eval.c" ""
+A8=_ "C:\Documents and Settings\aspl\桌面\无系统工程\STM32F107_LwIP_BOOT\Utilities\Third_Party\lwip_v1.3.1\src\core\ipv4\inet_chksum.c" ""
+A9=_ "D:\lxb\巡检机6.4\IAP-Version2.0\Project\STM32F107_LwIP_IAP\src\main.c" ""
+A10=_ "D:\lxb\巡检机6.9\IAP-Version2.0\Project\STM32F107_LwIP_IAP\src\main.c" ""
+A11=_ "D:\桌面\IAR5.5\IAP\Project\STM32F107_LwIP_IAP\src\main.c" ""
+Count=12
+SuppressDialog=1
+[Disassemble mode]
+mode=0
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$}.126.3@1" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{C:\Documents and Settings\Administrator\桌面\检测机下位机程序\IAP\Project\STM32F107_LwIP_IAP\src\main.c}.110.5@1" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{C:\Documents and Settings\Administrator\桌面\检测机下位机程序\IAP\Project\STM32F107_LwIP_IAP\src\main.c}.135.2@1" 0 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{C:\Documents and Settings\Administrator\桌面\检测机下位机程序\IAP\Project\STM32F107_LwIP_IAP\src\main.c}.139.6@1" 0 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{D:\lxb\巡检机6.3\IAP-Version2.0\Project\STM32F107_LwIP_IAP\src\stm32f10x_it.c}.177.5@1" 0 0 0 0 "" 0 ""
+Count=5
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[TraceHelper]
+Enabled=0
+ShowSource=1
+[DriverProfiling]
+Enabled=0
+Source=2
+Graph=0
