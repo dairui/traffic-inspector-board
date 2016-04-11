@@ -1,0 +1,6 @@
+{
+  "name": "Traffic-inspector-board",
+  "tagline": "Inspector machine that inspects the working status of traffic lights",
+  "body": "### Welcome to GitHub Pages.\r\n`static int input_defuzz_abs_event(int value, int old_val, int fuzz)\r\n{\r\n        if (fuzz) {\r\n                if (value > old_val - fuzz / 2 && value < old_val + fuzz / 2)\r\n                        return old_val;\r\n\r\n                if (value > old_val - fuzz && value < old_val + fuzz)\r\n                        return (old_val * 3 + value) / 4;\r\n\r\n                if (value > old_val - fuzz * 2 && value < old_val + fuzz * 2)\r\n                        return (old_val + value) / 2;\r\n        }\r\n\r\n        return value;\r\n}`",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
